@@ -1,17 +1,18 @@
-[gd_scene load_steps=7 format=3 uid="uid://dqjuujjk5vqc3"]
+[gd_scene load_steps=8 format=3 uid="uid://dqjuujjk5vqc3"]
 
 [ext_resource type="Script" path="res://player_controls.gd" id="1_essjw"]
+[ext_resource type="Script" path="res://camera_3d.gd" id="2_utrjh"]
+[ext_resource type="ArrayMesh" uid="uid://del0xva2ew4j8" path="res://assets/sprites/Canopy_Top.obj" id="5_c1khn"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_aefqy"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xfwht"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_lic8d"]
+friction = 0.0
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_567i2"]
-size = Vector3(13.7388, 1, 10.0204)
-
-[sub_resource type="CanvasTexture" id="CanvasTexture_vd6m4"]
+size = Vector3(10.8, 0.5, 100)
 
 [node name="Root" type="Node3D"]
 
@@ -19,7 +20,7 @@ size = Vector3(13.7388, 1, 10.0204)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4329, 0)
 physics_material_override = SubResource("PhysicsMaterial_aefqy")
 lock_rotation = true
-constant_force = Vector3(0, -20, 0)
+constant_force = Vector3(0, -100, 0)
 script = ExtResource("1_essjw")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
@@ -27,15 +28,16 @@ shape = SubResource("CapsuleShape3D_xfwht")
 
 [node name="Camera3D" type="Camera3D" parent="Player"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.328608)
+script = ExtResource("2_utrjh")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.968417, 0)
+[node name="Road" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, -20, -45)
 physics_material_override = SubResource("PhysicsMaterial_lic8d")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.629059, 0, -0.40683)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Road"]
 shape = SubResource("BoxShape3D_567i2")
 
-[node name="Sprite3D" type="Sprite3D" parent="StaticBody3D"]
-transform = Transform3D(627.982, 0, 0, 0, 39.5539, 0, 0, 0, 914.488, 0, 0, -3.68788)
-texture = SubResource("CanvasTexture_vd6m4")
+[node name="CanopyTop" type="MeshInstance3D" parent="Road"]
+transform = Transform3D(11.4, 0, 0, 0, 0.459232, -1.90735e-06, 0, -3.72529e-08, 98.2044, 0.27456, -0.766663, 0.434807)
+mesh = ExtResource("5_c1khn")
+skeleton = NodePath("../..")
