@@ -1,6 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://dqjuujjk5vqc3"]
+[gd_scene load_steps=7 format=3 uid="uid://dqjuujjk5vqc3"]
 
 [ext_resource type="Script" path="res://player_controls.gd" id="1_essjw"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_aefqy"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_xfwht"]
 
@@ -15,7 +17,9 @@ size = Vector3(13.7388, 1, 10.0204)
 
 [node name="Player" type="RigidBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4329, 0)
-constant_force = Vector3(0, -12, 0)
+physics_material_override = SubResource("PhysicsMaterial_aefqy")
+lock_rotation = true
+constant_force = Vector3(0, -20, 0)
 script = ExtResource("1_essjw")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
