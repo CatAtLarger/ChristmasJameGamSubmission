@@ -1,0 +1,159 @@
+[gd_scene load_steps=13 format=3 uid="uid://buecf135k6cpl"]
+
+[ext_resource type="PackedScene" uid="uid://d35ltww6bixeg" path="res://scenes/stucco_block.tscn" id="1_1gkhr"]
+[ext_resource type="ArrayMesh" uid="uid://bn5nvis6usl37" path="res://assets/sprites/Stucco_Doorway_Wide_Tall.obj" id="2_4blla"]
+[ext_resource type="ArrayMesh" uid="uid://bqaay10tslulc" path="res://assets/sprites/Stucco_Window_Double_Wide.obj" id="2_cd5ru"]
+[ext_resource type="ArrayMesh" uid="uid://h7d7xieb81rd" path="res://assets/sprites/Wall_Prop_Door_Ornate.obj" id="3_fjvtd"]
+[ext_resource type="ArrayMesh" uid="uid://ca0fs6jgladdn" path="res://assets/sprites/Stucco_Window_Rounded_Narrow.obj" id="3_q8ihi"]
+[ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/sprites/Roof_Convex_Side.obj" id="6_23vl1"]
+[ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/sprites/Roof_Convex_Corner_Outer.obj" id="7_m70p5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_twtpk"]
+size = Vector3(2.99683, 3.01208, 7.02011)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ximfw"]
+size = Vector3(1, 1.01129, 1.99426)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_53ujf"]
+size = Vector3(1, 2.00238, 2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vp6bo"]
+size = Vector3(2.9729, 1, 6.86145)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q80qr"]
+size = Vector3(2.83865, 3.79645, 7.04839)
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.168883, 0.0949335, 0.0928097)
+
+[node name="house" type="StaticBody3D" parent="."]
+
+[node name="body" type="StaticBody3D" parent="house"]
+
+[node name="block1" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 7, 1, 1, 1.5)
+
+[node name="block2" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 7, 0.5, 2, 1.5)
+
+[node name="block3" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(2, 0, 0, 0, 1, 0, 0, 0, 7, 0.499454, 0.0139141, 1.49593)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house/body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1.5, 1.5)
+shape = SubResource("BoxShape3D_twtpk")
+
+[node name="window_wide" type="MeshInstance3D" parent="house/body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 3.5)
+mesh = ExtResource("2_cd5ru")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="house/body/window_wide"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house/body/window_wide/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0.5)
+shape = SubResource("BoxShape3D_ximfw")
+
+[node name="window_wide2" type="MeshInstance3D" parent="house/body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, -1.5)
+mesh = ExtResource("2_cd5ru")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="house/body/window_wide2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house/body/window_wide2/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0.5)
+shape = SubResource("BoxShape3D_ximfw")
+
+[node name="window_round" type="MeshInstance3D" parent="house/body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 1.5)
+mesh = ExtResource("3_q8ihi")
+
+[node name="window_wide3" type="MeshInstance3D" parent="house/body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.191331, 3.5)
+mesh = ExtResource("2_cd5ru")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="house/body/window_wide3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house/body/window_wide3/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0.5)
+shape = SubResource("BoxShape3D_ximfw")
+
+[node name="window_wide4" type="MeshInstance3D" parent="house/body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.193323, -1.5)
+mesh = ExtResource("2_cd5ru")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="house/body/window_wide4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house/body/window_wide4/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0.5)
+shape = SubResource("BoxShape3D_ximfw")
+
+[node name="block4" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 2.5)
+
+[node name="block5" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 0.5)
+
+[node name="block6" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(3, 0, 0, 0, 1, 0, 0, 0, 7, 1, 1, 1.5)
+
+[node name="block7" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.008, 0.5)
+
+[node name="block8" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 2.5)
+
+[node name="block9" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 2, 2, 0, 4)
+
+[node name="block10" parent="house/body" instance=ExtResource("1_1gkhr")]
+transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 2, 2, 0, -1)
+
+[node name="doorway" type="MeshInstance3D" parent="house"]
+transform = Transform3D(0.25, 0, 0, 0, 1, 0, 0, 0, 1, 2.37117, 0.00421184, 0.999274)
+mesh = ExtResource("2_4blla")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="house/doorway"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house/doorway/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0.5)
+shape = SubResource("BoxShape3D_53ujf")
+
+[node name="door" type="MeshInstance3D" parent="house/doorway"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.257083, 0, 0.49745)
+mesh = ExtResource("3_fjvtd")
+
+[node name="roof" type="StaticBody3D" parent="house"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.11613, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house/roof"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1.5)
+shape = SubResource("BoxShape3D_vp6bo")
+
+[node name="roof_side" type="MeshInstance3D" parent="house/roof"]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 5, 1.74182, -0.15, 1.5)
+mesh = ExtResource("6_23vl1")
+
+[node name="roof_side2" type="MeshInstance3D" parent="house/roof"]
+transform = Transform3D(-1.5, 0, -7.54979e-07, 0, 1.5, 0, 2.26494e-07, 0, -5, 0.25, -0.15, 1.5)
+mesh = ExtResource("6_23vl1")
+
+[node name="roof_corner" type="MeshInstance3D" parent="house/roof"]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1, 1.75694, -0.15, -1.5)
+mesh = ExtResource("7_m70p5")
+
+[node name="roof_corner2" type="MeshInstance3D" parent="house/roof"]
+transform = Transform3D(-4.37114e-08, 0, 1.5, 0, 1.5, 0, -1, 0, -6.55671e-08, 0.261833, -0.15, -1.5)
+mesh = ExtResource("7_m70p5")
+
+[node name="roof_corner3" type="MeshInstance3D" parent="house/roof"]
+transform = Transform3D(-4.37114e-08, 0, -1.5, 0, 1.5, 0, 1, 0, -6.55671e-08, 1.7398, -0.15, 4.50018)
+mesh = ExtResource("7_m70p5")
+
+[node name="roof_corner4" type="MeshInstance3D" parent="house/roof"]
+transform = Transform3D(-1.5, 0, 8.74228e-08, 0, 1.5, 0, -1.31134e-07, 0, -1, 0.3, -0.15, 4.5)
+mesh = ExtResource("7_m70p5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="house"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.962631, 1.86264, 1.52522)
+shape = SubResource("BoxShape3D_q80qr")
