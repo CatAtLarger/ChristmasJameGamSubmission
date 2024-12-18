@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bl7trc77nw64s"
+path="res://.godot/imported/Roof_Straight_Corner_Outer.obj-d81c219289adb5c3c72a68341da2c970.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Roof_Straight_Corner_Outer.obj-d81c219289adb5c3c72a68341da2c970.mesh"]
+
+source_file="res://assets/sprites/Roof_Straight_Corner_Outer.obj"
+dest_files=["res://.godot/imported/Roof_Straight_Corner_Outer.obj-d81c219289adb5c3c72a68341da2c970.mesh", "res://.godot/imported/Roof_Straight_Corner_Outer.obj-d81c219289adb5c3c72a68341da2c970.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

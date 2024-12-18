@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cpbfi67y0bxtx"
+path="res://.godot/imported/Wood_Rope_Stairs.obj-8a5507f6bb3c8394ea8eb5269e364f73.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Rope_Stairs.obj-8a5507f6bb3c8394ea8eb5269e364f73.mesh"]
+
+source_file="res://assets/sprites/Wood_Rope_Stairs.obj"
+dest_files=["res://.godot/imported/Wood_Rope_Stairs.obj-8a5507f6bb3c8394ea8eb5269e364f73.mesh", "res://.godot/imported/Wood_Rope_Stairs.obj-8a5507f6bb3c8394ea8eb5269e364f73.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

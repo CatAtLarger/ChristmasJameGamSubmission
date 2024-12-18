@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://chn4esysfq2sf"
+path="res://.godot/imported/Wood_Floor_Straight_1.obj-194f058025d69797708e8adc9a49d566.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Floor_Straight_1.obj-194f058025d69797708e8adc9a49d566.mesh"]
+
+source_file="res://assets/sprites/Wood_Floor_Straight_1.obj"
+dest_files=["res://.godot/imported/Wood_Floor_Straight_1.obj-194f058025d69797708e8adc9a49d566.mesh", "res://.godot/imported/Wood_Floor_Straight_1.obj-194f058025d69797708e8adc9a49d566.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

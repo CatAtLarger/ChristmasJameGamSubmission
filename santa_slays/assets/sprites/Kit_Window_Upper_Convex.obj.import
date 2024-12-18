@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://brg5a7qausr0m"
+path="res://.godot/imported/Kit_Window_Upper_Convex.obj-2898e3a4b03a4fb1d87dc866a48e2277.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Kit_Window_Upper_Convex.obj-2898e3a4b03a4fb1d87dc866a48e2277.mesh"]
+
+source_file="res://assets/sprites/Kit_Window_Upper_Convex.obj"
+dest_files=["res://.godot/imported/Kit_Window_Upper_Convex.obj-2898e3a4b03a4fb1d87dc866a48e2277.mesh", "res://.godot/imported/Kit_Window_Upper_Convex.obj-2898e3a4b03a4fb1d87dc866a48e2277.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

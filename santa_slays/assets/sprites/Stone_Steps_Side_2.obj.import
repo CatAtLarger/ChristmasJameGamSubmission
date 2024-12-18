@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://i6j2w4j2y2n5"
+path="res://.godot/imported/Stone_Steps_Side_2.obj-b18550d8b8eed6dde69b47efcfadda65.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stone_Steps_Side_2.obj-b18550d8b8eed6dde69b47efcfadda65.mesh"]
+
+source_file="res://assets/sprites/Stone_Steps_Side_2.obj"
+dest_files=["res://.godot/imported/Stone_Steps_Side_2.obj-b18550d8b8eed6dde69b47efcfadda65.mesh", "res://.godot/imported/Stone_Steps_Side_2.obj-b18550d8b8eed6dde69b47efcfadda65.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
