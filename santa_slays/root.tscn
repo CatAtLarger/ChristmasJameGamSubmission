@@ -1,8 +1,12 @@
-[gd_scene load_steps=8 format=3 uid="uid://dqjuujjk5vqc3"]
+[gd_scene load_steps=10 format=3 uid="uid://dqjuujjk5vqc3"]
 
-[ext_resource type="Script" path="res://player_controls.gd" id="1_essjw"]
-[ext_resource type="Script" path="res://camera_3d.gd" id="2_utrjh"]
-[ext_resource type="ArrayMesh" uid="uid://del0xva2ew4j8" path="res://assets/objects/Canopy_Top.obj" id="5_c1khn"]
+<<<<<<< HEAD
+[ext_resource type="Script" path="res://assets/scripts/player_controls.gd" id="1_essjw"]
+[ext_resource type="Script" path="res://assets/scripts/camera_3d.gd" id="2_utrjh"]
+[ext_resource type="PackedScene" uid="uid://b0creittklox7" path="res://assets/scenes/present.tscn" id="4_1o4e4"]
+[ext_resource type="ArrayMesh" uid="uid://del0xva2ew4j8" path="res://assets/sprites/Canopy_Top.obj" id="5_c1khn"]
+[ext_resource type="Script" path="res://assets/scripts/present.gd" id="5_fkdkd"]
+ 5f823f6b234738b5892b89fc833b878d084c86c7
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_aefqy"]
 
@@ -20,8 +24,9 @@ size = Vector3(10.8, 0.5, 100)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4329, 0)
 physics_material_override = SubResource("PhysicsMaterial_aefqy")
 lock_rotation = true
-constant_force = Vector3(0, -100, 0)
+constant_force = Vector3(0, -50, 0)
 script = ExtResource("1_essjw")
+present_scene = ExtResource("4_1o4e4")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
 shape = SubResource("CapsuleShape3D_xfwht")
@@ -41,3 +46,9 @@ shape = SubResource("BoxShape3D_567i2")
 transform = Transform3D(11.4, 0, 0, 0, 0.459232, -1.90735e-06, 0, -3.72529e-08, 98.2044, 0.27456, -0.766663, 0.434807)
 mesh = ExtResource("5_c1khn")
 skeleton = NodePath("../..")
+
+[node name="Present" parent="." instance=ExtResource("4_1o4e4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -22.3675)
+script = ExtResource("5_fkdkd")
+
+[node name="Presents" type="Node3D" parent="."]
