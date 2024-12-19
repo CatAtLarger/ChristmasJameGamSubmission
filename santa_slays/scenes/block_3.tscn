@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://bu1y3v6scw1ou"]
 
-[ext_resource type="MeshLibrary" uid="uid://b4heoblocwvfo" path="res://MeshLibrary.tres" id="1_uc7w6"]
+[ext_resource type="MeshLibrary" uid="uid://b4heoblocwvfo" path="res://assets/MeshLibrary.tres" id="1_uc7w6"]
 [ext_resource type="PackedScene" uid="uid://c5oagicuco0bq" path="res://scenes/house_small.tscn" id="2_22agc"]
 [ext_resource type="PackedScene" uid="uid://buecf135k6cpl" path="res://scenes/house_medium.tscn" id="3_yq7ih"]
 
