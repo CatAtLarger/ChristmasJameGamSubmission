@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cdmjsffdq0ruf"
+path="res://.godot/imported/Wood_Railing_Stairs.obj-d2e9b3e52024fb3dfa897b941ba603ae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Railing_Stairs.obj-d2e9b3e52024fb3dfa897b941ba603ae.mesh"]
+
+source_file="res://assets/objects/Wood_Railing_Stairs.obj"
+dest_files=["res://.godot/imported/Wood_Railing_Stairs.obj-d2e9b3e52024fb3dfa897b941ba603ae.mesh", "res://.godot/imported/Wood_Railing_Stairs.obj-d2e9b3e52024fb3dfa897b941ba603ae.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

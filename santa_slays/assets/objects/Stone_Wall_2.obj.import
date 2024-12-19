@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://w1xrhbhexrm1"
+path="res://.godot/imported/Stone_Wall_2.obj-252ac0b64775c4a503577c5e93724b86.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stone_Wall_2.obj-252ac0b64775c4a503577c5e93724b86.mesh"]
+
+source_file="res://assets/objects/Stone_Wall_2.obj"
+dest_files=["res://.godot/imported/Stone_Wall_2.obj-252ac0b64775c4a503577c5e93724b86.mesh", "res://.godot/imported/Stone_Wall_2.obj-252ac0b64775c4a503577c5e93724b86.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

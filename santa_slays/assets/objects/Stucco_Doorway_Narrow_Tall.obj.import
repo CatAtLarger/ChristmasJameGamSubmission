@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://31ml6l684egx"
+path="res://.godot/imported/Stucco_Doorway_Narrow_Tall.obj-3978c360f93e72814eda95b73dc7576d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stucco_Doorway_Narrow_Tall.obj-3978c360f93e72814eda95b73dc7576d.mesh"]
+
+source_file="res://assets/objects/Stucco_Doorway_Narrow_Tall.obj"
+dest_files=["res://.godot/imported/Stucco_Doorway_Narrow_Tall.obj-3978c360f93e72814eda95b73dc7576d.mesh", "res://.godot/imported/Stucco_Doorway_Narrow_Tall.obj-3978c360f93e72814eda95b73dc7576d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

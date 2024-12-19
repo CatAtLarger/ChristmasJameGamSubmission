@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://csffeqmd60sp4"
+path="res://.godot/imported/Prop_Well_Cobblestone.obj-de0e98659911f73debf0a833f7a79007.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Well_Cobblestone.obj-de0e98659911f73debf0a833f7a79007.mesh"]
+
+source_file="res://assets/objects/Prop_Well_Cobblestone.obj"
+dest_files=["res://.godot/imported/Prop_Well_Cobblestone.obj-de0e98659911f73debf0a833f7a79007.mesh", "res://.godot/imported/Prop_Well_Cobblestone.obj-de0e98659911f73debf0a833f7a79007.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://d35ltww6bixeg"]
 
-[ext_resource type="ArrayMesh" uid="uid://deqcbdqbyqw8j" path="res://assets/sprites/Stucco_Block.obj" id="1_16sly"]
+[ext_resource type="ArrayMesh" uid="uid://deqcbdqbyqw8j" path="res://assets/objects/Stucco_Block.obj" id="1_16sly"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_xiekp"]
 

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cbps2bex3ubxp"
+path="res://.godot/imported/Stucco_Window_Double_Narrow.obj-bf8ee27cc9308e5c5f4c5b307039f2ff.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stucco_Window_Double_Narrow.obj-bf8ee27cc9308e5c5f4c5b307039f2ff.mesh"]
+
+source_file="res://assets/objects/Stucco_Window_Double_Narrow.obj"
+dest_files=["res://.godot/imported/Stucco_Window_Double_Narrow.obj-bf8ee27cc9308e5c5f4c5b307039f2ff.mesh", "res://.godot/imported/Stucco_Window_Double_Narrow.obj-bf8ee27cc9308e5c5f4c5b307039f2ff.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bkv8ffusbua6r"
+path="res://.godot/imported/Dirt_Gathered_Corner.obj-9336deb3542f30ec858bbf47fb482bd5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Dirt_Gathered_Corner.obj-9336deb3542f30ec858bbf47fb482bd5.mesh"]
+
+source_file="res://assets/objects/Dirt_Gathered_Corner.obj"
+dest_files=["res://.godot/imported/Dirt_Gathered_Corner.obj-9336deb3542f30ec858bbf47fb482bd5.mesh", "res://.godot/imported/Dirt_Gathered_Corner.obj-9336deb3542f30ec858bbf47fb482bd5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

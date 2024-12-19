@@ -1,18 +1,18 @@
-[gd_scene load_steps=24 format=3 uid="uid://c5pbtaevxh4j"]
+[gd_scene load_steps=23 format=3 uid="uid://c5pbtaevxh4j"]
 
-[ext_resource type="ArrayMesh" uid="uid://bbahkoytmdg13" path="res://assets/sprites/Stone_Floor_1.obj" id="1_chfng"]
-[ext_resource type="ArrayMesh" uid="uid://7nvrekksa8dg" path="res://assets/sprites/Stone_Floor_2.obj" id="2_iansc"]
-[ext_resource type="ArrayMesh" uid="uid://qohocn83ecqd" path="res://assets/sprites/Stone_Curb_1.obj" id="3_ie4sw"]
-[ext_resource type="ArrayMesh" uid="uid://bm4b1nglr7oh4" path="res://assets/sprites/Stone_Curb_2.obj" id="4_84cr6"]
-[ext_resource type="ArrayMesh" uid="uid://t42mn5iravri" path="res://assets/sprites/Prop_Barrel_1.obj" id="5_fseny"]
-[ext_resource type="ArrayMesh" uid="uid://deqcbdqbyqw8j" path="res://assets/sprites/Stucco_Block.obj" id="6_rdlrt"]
-[ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/sprites/Roof_Convex_Corner_Outer.obj" id="7_topcf"]
-[ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/sprites/Roof_Convex_Side.obj" id="12_1u321"]
-[ext_resource type="ArrayMesh" uid="uid://b0pdt55nppn3x" path="res://assets/sprites/Prop_Crate_1.obj" id="13_hsnsf"]
-[ext_resource type="ArrayMesh" uid="uid://yjfjxrdedjop" path="res://assets/sprites/Prop_Lamp_Street.obj" id="14_3whpe"]
-[ext_resource type="ArrayMesh" uid="uid://byk6r0ncun2tf" path="res://assets/sprites/Waterwheel_Flume_Support_Pillar.obj" id="15_3q87d"]
-[ext_resource type="ArrayMesh" uid="uid://c52fy4062enis" path="res://assets/sprites/Dirt_Gathered_Straight.obj" id="16_0mi6y"]
-[ext_resource type="ArrayMesh" uid="uid://dmxgmjvu3ynwl" path="res://assets/sprites/Cobblestone_Dirt_Transition_1.obj" id="17_mqa8o"]
+[ext_resource type="ArrayMesh" uid="uid://bbahkoytmdg13" path="res://assets/objects/Stone_Floor_1.obj" id="1_chfng"]
+[ext_resource type="ArrayMesh" uid="uid://7nvrekksa8dg" path="res://assets/objects/Stone_Floor_2.obj" id="2_iansc"]
+[ext_resource type="ArrayMesh" uid="uid://qohocn83ecqd" path="res://assets/objects/Stone_Curb_1.obj" id="3_ie4sw"]
+[ext_resource type="ArrayMesh" uid="uid://bm4b1nglr7oh4" path="res://assets/objects/Stone_Curb_2.obj" id="4_84cr6"]
+[ext_resource type="ArrayMesh" uid="uid://t42mn5iravri" path="res://assets/objects/Prop_Barrel_1.obj" id="5_fseny"]
+[ext_resource type="ArrayMesh" uid="uid://deqcbdqbyqw8j" path="res://assets/objects/Stucco_Block.obj" id="6_rdlrt"]
+[ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/objects/Roof_Convex_Corner_Outer.obj" id="7_topcf"]
+[ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/objects/Roof_Convex_Side.obj" id="12_1u321"]
+[ext_resource type="ArrayMesh" uid="uid://b0pdt55nppn3x" path="res://assets/objects/Prop_Crate_1.obj" id="13_hsnsf"]
+[ext_resource type="ArrayMesh" uid="uid://yjfjxrdedjop" path="res://assets/objects/Prop_Lamp_Street.obj" id="14_3whpe"]
+[ext_resource type="ArrayMesh" uid="uid://byk6r0ncun2tf" path="res://assets/objects/Waterwheel_Flume_Support_Pillar.obj" id="15_3q87d"]
+[ext_resource type="ArrayMesh" uid="uid://c52fy4062enis" path="res://assets/objects/Dirt_Gathered_Straight.obj" id="16_0mi6y"]
+[ext_resource type="ArrayMesh" uid="uid://dmxgmjvu3ynwl" path="res://assets/objects/Cobblestone_Dirt_Transition_1.obj" id="17_mqa8o"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_exk6j"]
 size = Vector3(1, 0.2, 1)
@@ -25,9 +25,6 @@ radius = 0.24657
 height = 0.521339
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ry0c4"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_r5m8h"]
-size = Vector3(0.930786, 1.245, 0.213394)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_rt8w5"]
 size = Vector3(0.201355, 1, 0.19635)
@@ -106,16 +103,6 @@ mesh = ExtResource("13_hsnsf")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 shape = SubResource("BoxShape3D_ry0c4")
 
-[node name="streetlamp" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 2)
-mesh = ExtResource("14_3whpe")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="streetlamp"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="streetlamp/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.147644, 0.622498, -0.00746918)
-shape = SubResource("BoxShape3D_r5m8h")
-
 [node name="lamppost" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, 4)
 mesh = ExtResource("15_3q87d")
@@ -186,3 +173,13 @@ mesh = ExtResource("12_1u321")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="roof_convex_side/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
 shape = SubResource("BoxShape3D_m6svt")
+
+[node name="street_light" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5, 0, 2)
+mesh = ExtResource("14_3whpe")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="street_light"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="street_light/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.5, 0)
+shape = SubResource("BoxShape3D_rt8w5")

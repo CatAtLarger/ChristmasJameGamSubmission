@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cxdgo12d2nt75"
+path="res://.godot/imported/Prop_Ladder_1.obj-fc811ead5fecef14dbb9f92774f83287.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Ladder_1.obj-fc811ead5fecef14dbb9f92774f83287.mesh"]
+
+source_file="res://assets/objects/Prop_Ladder_1.obj"
+dest_files=["res://.godot/imported/Prop_Ladder_1.obj-fc811ead5fecef14dbb9f92774f83287.mesh", "res://.godot/imported/Prop_Ladder_1.obj-fc811ead5fecef14dbb9f92774f83287.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

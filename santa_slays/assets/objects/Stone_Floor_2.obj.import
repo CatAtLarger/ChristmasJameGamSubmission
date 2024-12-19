@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7nvrekksa8dg"
+path="res://.godot/imported/Stone_Floor_2.obj-f24f8ba9e2a2ae6e62162c29628099af.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stone_Floor_2.obj-f24f8ba9e2a2ae6e62162c29628099af.mesh"]
+
+source_file="res://assets/objects/Stone_Floor_2.obj"
+dest_files=["res://.godot/imported/Stone_Floor_2.obj-f24f8ba9e2a2ae6e62162c29628099af.mesh", "res://.godot/imported/Stone_Floor_2.obj-f24f8ba9e2a2ae6e62162c29628099af.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

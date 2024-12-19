@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c0orhugdftfr3"
+path="res://.godot/imported/Roof_Prop_Chimney_Stone.obj-0223da8e2e881d65cf1d23b62d5c9d7b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Roof_Prop_Chimney_Stone.obj-0223da8e2e881d65cf1d23b62d5c9d7b.mesh"]
+
+source_file="res://assets/objects/Roof_Prop_Chimney_Stone.obj"
+dest_files=["res://.godot/imported/Roof_Prop_Chimney_Stone.obj-0223da8e2e881d65cf1d23b62d5c9d7b.mesh", "res://.godot/imported/Roof_Prop_Chimney_Stone.obj-0223da8e2e881d65cf1d23b62d5c9d7b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

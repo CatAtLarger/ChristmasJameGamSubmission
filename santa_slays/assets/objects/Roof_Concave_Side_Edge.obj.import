@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyy1vtue5qg21"
+path="res://.godot/imported/Roof_Concave_Side_Edge.obj-f507b64ad4a165f3373867fe3ca8a3e0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Roof_Concave_Side_Edge.obj-f507b64ad4a165f3373867fe3ca8a3e0.mesh"]
+
+source_file="res://assets/objects/Roof_Concave_Side_Edge.obj"
+dest_files=["res://.godot/imported/Roof_Concave_Side_Edge.obj-f507b64ad4a165f3373867fe3ca8a3e0.mesh", "res://.godot/imported/Roof_Concave_Side_Edge.obj-f507b64ad4a165f3373867fe3ca8a3e0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

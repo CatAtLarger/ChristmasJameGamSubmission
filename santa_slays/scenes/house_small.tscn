@@ -1,11 +1,11 @@
 [gd_scene load_steps=11 format=3 uid="uid://c5oagicuco0bq"]
 
-[ext_resource type="ArrayMesh" uid="uid://bn5nvis6usl37" path="res://assets/sprites/Stucco_Doorway_Wide_Tall.obj" id="1_aenfj"]
-[ext_resource type="ArrayMesh" uid="uid://h7d7xieb81rd" path="res://assets/sprites/Wall_Prop_Door_Ornate.obj" id="2_jy6jl"]
+[ext_resource type="ArrayMesh" uid="uid://bn5nvis6usl37" path="res://assets/objects/Stucco_Doorway_Wide_Tall.obj" id="1_aenfj"]
+[ext_resource type="ArrayMesh" uid="uid://h7d7xieb81rd" path="res://assets/objects/Wall_Prop_Door_Ornate.obj" id="2_jy6jl"]
 [ext_resource type="PackedScene" uid="uid://d35ltww6bixeg" path="res://scenes/stucco_block.tscn" id="4_g25rv"]
-[ext_resource type="ArrayMesh" uid="uid://ca0fs6jgladdn" path="res://assets/sprites/Stucco_Window_Rounded_Narrow.obj" id="4_yiltj"]
-[ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/sprites/Roof_Convex_Corner_Outer.obj" id="5_yfoxg"]
-[ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/sprites/Roof_Convex_Side.obj" id="6_eewhx"]
+[ext_resource type="ArrayMesh" uid="uid://ca0fs6jgladdn" path="res://assets/objects/Stucco_Window_Rounded_Narrow.obj" id="4_yiltj"]
+[ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/objects/Roof_Convex_Corner_Outer.obj" id="5_yfoxg"]
+[ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/objects/Roof_Convex_Side.obj" id="6_eewhx"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_0j627"]
 size = Vector3(1.00488, 2.0097, 1.99988)
@@ -19,7 +19,7 @@ size = Vector3(1, 0.702271, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_kmcn6"]
 size = Vector3(1, 0.712952, 1)
 
-[node name="Node3D" type="Node3D"]
+[node name="sm_house" type="Node3D"]
 
 [node name="doorway" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 0, -0.5)

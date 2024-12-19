@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://twcxhtaphkdi"
+path="res://.godot/imported/Wood_Rope_Straight.obj-2ea077c70f33d4b79a853b9682f3ad52.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Rope_Straight.obj-2ea077c70f33d4b79a853b9682f3ad52.mesh"]
+
+source_file="res://assets/objects/Wood_Rope_Straight.obj"
+dest_files=["res://.godot/imported/Wood_Rope_Straight.obj-2ea077c70f33d4b79a853b9682f3ad52.mesh", "res://.godot/imported/Wood_Rope_Straight.obj-2ea077c70f33d4b79a853b9682f3ad52.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

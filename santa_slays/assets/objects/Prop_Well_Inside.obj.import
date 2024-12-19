@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyk6klm2a7ixt"
+path="res://.godot/imported/Prop_Well_Inside.obj-a5b96fac2a571895096acf62ddda68fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Prop_Well_Inside.obj-a5b96fac2a571895096acf62ddda68fd.mesh"]
+
+source_file="res://assets/objects/Prop_Well_Inside.obj"
+dest_files=["res://.godot/imported/Prop_Well_Inside.obj-a5b96fac2a571895096acf62ddda68fd.mesh", "res://.godot/imported/Prop_Well_Inside.obj-a5b96fac2a571895096acf62ddda68fd.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

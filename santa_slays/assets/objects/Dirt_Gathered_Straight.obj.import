@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c52fy4062enis"
+path="res://.godot/imported/Dirt_Gathered_Straight.obj-df2f8a07e21cc784e7543f2d52d5e4db.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Dirt_Gathered_Straight.obj-df2f8a07e21cc784e7543f2d52d5e4db.mesh"]
+
+source_file="res://assets/objects/Dirt_Gathered_Straight.obj"
+dest_files=["res://.godot/imported/Dirt_Gathered_Straight.obj-df2f8a07e21cc784e7543f2d52d5e4db.mesh", "res://.godot/imported/Dirt_Gathered_Straight.obj-df2f8a07e21cc784e7543f2d52d5e4db.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

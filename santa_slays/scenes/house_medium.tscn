@@ -1,12 +1,12 @@
 [gd_scene load_steps=13 format=3 uid="uid://buecf135k6cpl"]
 
 [ext_resource type="PackedScene" uid="uid://d35ltww6bixeg" path="res://scenes/stucco_block.tscn" id="1_1gkhr"]
-[ext_resource type="ArrayMesh" uid="uid://bn5nvis6usl37" path="res://assets/sprites/Stucco_Doorway_Wide_Tall.obj" id="2_4blla"]
-[ext_resource type="ArrayMesh" uid="uid://bqaay10tslulc" path="res://assets/sprites/Stucco_Window_Double_Wide.obj" id="2_cd5ru"]
-[ext_resource type="ArrayMesh" uid="uid://h7d7xieb81rd" path="res://assets/sprites/Wall_Prop_Door_Ornate.obj" id="3_fjvtd"]
-[ext_resource type="ArrayMesh" uid="uid://ca0fs6jgladdn" path="res://assets/sprites/Stucco_Window_Rounded_Narrow.obj" id="3_q8ihi"]
-[ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/sprites/Roof_Convex_Side.obj" id="6_23vl1"]
-[ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/sprites/Roof_Convex_Corner_Outer.obj" id="7_m70p5"]
+[ext_resource type="ArrayMesh" uid="uid://bn5nvis6usl37" path="res://assets/objects/Stucco_Doorway_Wide_Tall.obj" id="2_4blla"]
+[ext_resource type="ArrayMesh" uid="uid://bqaay10tslulc" path="res://assets/objects/Stucco_Window_Double_Wide.obj" id="2_cd5ru"]
+[ext_resource type="ArrayMesh" uid="uid://h7d7xieb81rd" path="res://assets/objects/Wall_Prop_Door_Ornate.obj" id="3_fjvtd"]
+[ext_resource type="ArrayMesh" uid="uid://ca0fs6jgladdn" path="res://assets/objects/Stucco_Window_Rounded_Narrow.obj" id="3_q8ihi"]
+[ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/objects/Roof_Convex_Side.obj" id="6_23vl1"]
+[ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/objects/Roof_Convex_Corner_Outer.obj" id="7_m70p5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_twtpk"]
 size = Vector3(2.99683, 3.01208, 7.02011)
@@ -23,7 +23,7 @@ size = Vector3(2.9729, 1, 6.86145)
 [sub_resource type="BoxShape3D" id="BoxShape3D_q80qr"]
 size = Vector3(2.83865, 3.79645, 7.04839)
 
-[node name="Node3D" type="Node3D"]
+[node name="med_house" type="Node3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.168883, 0.0949335, 0.0928097)
 
 [node name="house" type="StaticBody3D" parent="."]

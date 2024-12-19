@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5q3y5hwckbma"
+path="res://.godot/imported/Wood_Steps_Stucco.obj-86d887811763c7f1816ab250849a786e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wood_Steps_Stucco.obj-86d887811763c7f1816ab250849a786e.mesh"]
+
+source_file="res://assets/objects/Wood_Steps_Stucco.obj"
+dest_files=["res://.godot/imported/Wood_Steps_Stucco.obj-86d887811763c7f1816ab250849a786e.mesh", "res://.godot/imported/Wood_Steps_Stucco.obj-86d887811763c7f1816ab250849a786e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

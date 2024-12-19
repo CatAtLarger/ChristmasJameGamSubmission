@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://vepryl3318vp"
+path="res://.godot/imported/Stone_Arch.obj-12bdce146139b50be98b392dddf074f4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Stone_Arch.obj-12bdce146139b50be98b392dddf074f4.mesh"]
+
+source_file="res://assets/objects/Stone_Arch.obj"
+dest_files=["res://.godot/imported/Stone_Arch.obj-12bdce146139b50be98b392dddf074f4.mesh", "res://.godot/imported/Stone_Arch.obj-12bdce146139b50be98b392dddf074f4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
