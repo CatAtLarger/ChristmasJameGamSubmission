@@ -2,7 +2,7 @@
 
 [ext_resource type="ArrayMesh" uid="uid://bn5nvis6usl37" path="res://assets/objects/Stucco_Doorway_Wide_Tall.obj" id="1_aenfj"]
 [ext_resource type="ArrayMesh" uid="uid://h7d7xieb81rd" path="res://assets/objects/Wall_Prop_Door_Ornate.obj" id="2_jy6jl"]
-[ext_resource type="PackedScene" uid="uid://d35ltww6bixeg" path="res://scenes/stucco_block.tscn" id="4_g25rv"]
+[ext_resource type="PackedScene" uid="uid://d35ltww6bixeg" path="res://assets/scenes/stucco_block.tscn" id="4_g25rv"]
 [ext_resource type="ArrayMesh" uid="uid://ca0fs6jgladdn" path="res://assets/objects/Stucco_Window_Rounded_Narrow.obj" id="4_yiltj"]
 [ext_resource type="ArrayMesh" uid="uid://bghwegjyw8kcm" path="res://assets/objects/Roof_Convex_Corner_Outer.obj" id="5_yfoxg"]
 [ext_resource type="ArrayMesh" uid="uid://ckg2k752p7cvh" path="res://assets/objects/Roof_Convex_Side.obj" id="6_eewhx"]

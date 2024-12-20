@@ -1,8 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://bu1y3v6scw1ou"]
+[gd_scene load_steps=8 format=3 uid="uid://xpysn6rvwi3m"]
 
-[ext_resource type="MeshLibrary" uid="uid://b4heoblocwvfo" path="res://assets/MeshLibrary.tres" id="1_uc7w6"]
-[ext_resource type="PackedScene" uid="uid://c5oagicuco0bq" path="res://scenes/house_small.tscn" id="2_22agc"]
-[ext_resource type="PackedScene" uid="uid://buecf135k6cpl" path="res://scenes/house_medium.tscn" id="3_yq7ih"]
+[ext_resource type="MeshLibrary" uid="uid://b4heoblocwvfo" path="res://assets/MeshLibrary.tres" id="1_gw15j"]
+[ext_resource type="PackedScene" uid="uid://c5oagicuco0bq" path="res://assets/scenes/house_small.tscn" id="2_upakk"]
+[ext_resource type="PackedScene" uid="uid://buecf135k6cpl" path="res://assets/scenes/house_medium.tscn" id="3_jufy1"]
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_hqr7q"]
 
@@ -16,7 +16,7 @@ material = SubResource("StandardMaterial3D_n3bx8")
 size = Vector2(100, 100)
 
 [node name="GridMap" type="GridMap"]
-mesh_library = ExtResource("1_uc7w6")
+mesh_library = ExtResource("1_gw15j")
 cell_size = Vector3(1, 1, 1)
 cell_center_y = false
 data = {
@@ -36,62 +36,62 @@ material_override = SubResource("StandardMaterial3D_cju7j")
 mesh = SubResource("PlaneMesh_khune")
 skeleton = NodePath("../CollisionShape3D")
 
-[node name="sm_house" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, -5)
 
-[node name="sm_house2" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house2" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 9, 0, 6)
 
-[node name="sm_house3" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house3" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 21, 0, 2)
 
-[node name="sm_house4" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house4" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 21, 0, 10)
 
-[node name="sm_house5" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house5" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 21, 0, 18)
 
-[node name="sm_house6" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house6" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(-0.79653, 0, 0.604599, 0, 1, 0, -0.604599, 0, -0.79653, 18.3883, 0, 27.8185)
 
-[node name="sm_house7" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house7" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.1425, 0, 21.1358)
 
-[node name="sm_house8" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house8" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.52, 0, 27.0777)
 
-[node name="sm_house9" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house9" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.8379, 0, 28.6441)
 
-[node name="sm_house10" parent="." instance=ExtResource("2_22agc")]
+[node name="sm_house10" parent="." instance=ExtResource("2_upakk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.1236, 0, 20.2817)
 
-[node name="med_house" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 14, 0, -6.5)
 
-[node name="med_house2" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house2" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.5, 0, 15)
 
-[node name="med_house3" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house3" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 14.5, 0, 39)
 
-[node name="med_house4" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house4" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0, 29)
 
-[node name="med_house5" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house5" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.8742, 0.524697, 35.3744)
 
-[node name="med_house6" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house6" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.30462, 1.35161, 51.9565)
 
-[node name="med_house7" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house7" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.6648, 0.0949335, 67.7666)
 
-[node name="med_house8" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house8" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.0438, 0.0949297, 75.2409)
 
-[node name="med_house9" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house9" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.267, 0.0949373, 76.1525)
 
-[node name="med_house10" parent="." instance=ExtResource("3_yq7ih")]
+[node name="med_house10" parent="." instance=ExtResource("3_jufy1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.3416, 0.0949335, 75.4649)

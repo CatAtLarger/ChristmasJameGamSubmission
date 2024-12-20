@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://buecf135k6cpl"]
 
-[ext_resource type="PackedScene" uid="uid://d35ltww6bixeg" path="res://scenes/stucco_block.tscn" id="1_1gkhr"]
+[ext_resource type="PackedScene" uid="uid://d35ltww6bixeg" path="res://assets/scenes/stucco_block.tscn" id="1_1gkhr"]
 [ext_resource type="ArrayMesh" uid="uid://bn5nvis6usl37" path="res://assets/objects/Stucco_Doorway_Wide_Tall.obj" id="2_4blla"]
 [ext_resource type="ArrayMesh" uid="uid://bqaay10tslulc" path="res://assets/objects/Stucco_Window_Double_Wide.obj" id="2_cd5ru"]
 [ext_resource type="ArrayMesh" uid="uid://h7d7xieb81rd" path="res://assets/objects/Wall_Prop_Door_Ornate.obj" id="3_fjvtd"]
